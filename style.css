@@ -1,3 +1,8 @@
+*{
+    outline: 1px solid red !important;
+}
+
+
 body{
     margin: 0px;
 }
@@ -31,6 +36,18 @@ a {
     color: #e5e7eb;
 }
 
+.box1 {
+
+}
+
+.box1head {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+.box1text {
+    color: #f9faf8;
+}
 
 
 .Links {
@@ -39,5 +56,14 @@ a {
     margin-right: 200px;
     gap: 20px;
     padding: 20px;
-   
+}
+
+.content {
+    display: flex;
+    background-color: #1f2937;
+}
+.container1 {
+    display: flex;
+ 
+    justify-content: space-around;
 }
