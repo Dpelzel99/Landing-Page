@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+
+.Headertext {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f9faf8;
+    font-size: 24px;
+    display: flex;
+    margin-right: auto;
+    margin-left: 200px;
+    padding: 20px;
+    align-self: center;
+}
+
+
+.Header {
+    background-color: #1f2937;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+
+
+.Links {
+    display: flex;
+    margin-left: auto;
+    margin-right: 200px;
+    gap: 20px;
+    padding: 20px;
+   
+}
