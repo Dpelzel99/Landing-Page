@@ -190,3 +190,12 @@ a {
 .callbox {
     padding-left: 50px;
 }
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
