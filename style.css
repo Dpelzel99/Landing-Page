@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid red !important;
+   /* outline: 1px solid red !important; */
 }
 
 
@@ -12,9 +12,9 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 900;
     display: flex;
     margin-right: auto;
-    margin-left: 200px;
     padding: 20px;
     align-self: center;
 }
@@ -23,6 +23,9 @@ body{
 .Header {
     background-color: #1f2937;
     display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 10px;
 }
 
 ul {
@@ -37,33 +40,84 @@ a {
 }
 
 .box1 {
+    max-width: 348px;
+    padding-right: 40px;
 
+    
 }
 
 .box1head {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    justify-content: start;
 }
 .box1text {
     color: #f9faf8;
+    padding-bottom: 10px;
 }
 
+.signup {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    width: 75px;
+    height: 30px;
+}
 
 .Links {
     display: flex;
-    margin-left: auto;
-    margin-right: 200px;
     gap: 20px;
     padding: 20px;
+    justify-content: end;
 }
 
 .content {
     display: flex;
-    background-color: #1f2937;
+    flex-direction: column;
+    
 }
 .container1 {
+    background-color: #1f2937;
     display: flex;
- 
-    justify-content: space-around;
+    padding: 100px;
+    justify-content: center;
+}
+
+.box2-1 {
+    background-color: white;
+    color: #1f2937;
+    font-size: 32px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.box2-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+
+}
+.cardbox {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
+}
+.cardtext {
+    justify-self: center;
+    padding-top: 5px;
+    text-align: center;
+    
 }
