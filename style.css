@@ -1,5 +1,6 @@
 *{
-   /* outline: 1px solid red !important; */
+    /*outline: 1px solid red !important;*/ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
@@ -87,27 +88,26 @@ a {
 .box2-1 {
     background-color: white;
     color: #1f2937;
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 900;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
 .box2-2 {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 100px;
 }
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100px;
-
 }
 .cardbox {
     width: 100px;
@@ -119,5 +119,74 @@ a {
     justify-self: center;
     padding-top: 5px;
     text-align: center;
+}
+
+.container3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 500px;
+    align-self: center;
+}
+.person {
+    justify-self: end;
+    color: #1f2937;
+}
+.text3 {
+    padding-right: 100px;
+    padding-bottom: 100px;
+    width: 500px;
+    align-self: center;
+}
+.container4 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.calltoaction {
+    background-color: #3882f6;
+    width: 1500px;
+    height: 150px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.callbox {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+.calltext {
+    font-size: 12px;
+    font-weight: 300;
+}
+.callbutton {
+    padding-right: 50px;
     
+}
+.callbutton1 {
+    background-color: #3882f6;
+    border: 1px solid white;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 8px;
+    height: 30px;
+    width: 100px;
+}
+.callbox {
+    padding-left: 50px;
 }
